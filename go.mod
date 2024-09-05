@@ -1,4 +1,4 @@
-module github.com/yourusername/terraform-provider-chucknorris
+module github.com/michael-hill-devsecops/terraform-provider-chucknorris
 
 go 1.18
 

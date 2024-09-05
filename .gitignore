@@ -1,0 +1,42 @@
+# Go binaries
+/artifacts/*
+!artifacts/.gitkeep
+
+# Build artifacts
+*.exe
+*.out
+
+# Dependency directories
+vendor/
+Gopkg.lock
+Gopkg.toml
+
+# Go workspace file
+go.work
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# IDE and editor directories
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Miscellaneous
+*.tmp
+*.bak
+
+# Environment files
+.env
+
+# Coverage reports
+coverage.out
